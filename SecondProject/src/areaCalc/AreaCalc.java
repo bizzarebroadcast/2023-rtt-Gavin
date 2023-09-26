@@ -11,6 +11,7 @@ public class AreaCalc {
 			    
 			    // Compute area
 			    area = radius * radius * 3.14159;
+			    //test
 			    
 			    // Display results
 			    System.out.println("The area for the circle of radius " +
