@@ -15,7 +15,7 @@ public class FirstConnection {
 		   String password = "Stardust!1";
 		   Connection connection = null;
 			try {
-				Class.forName("com.mysql.cj.jdbc.Driver"); // optional
+				Class.forName("com.mysql.cj.jdbc.Driver"); 
 				connection = DriverManager.getConnection(dburl, user, password);
 				Scanner scanner = new Scanner(System.in);
 				System.out.println("Enter an employee first name :");

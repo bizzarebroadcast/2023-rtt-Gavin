@@ -23,8 +23,6 @@ import javax.persistence.Table;
 	    @Column(name = "id")
 		private Integer id;
 	    
-	    // dont forget to generate your new getters and setters
-	    // remind me tomorrow to talk about lombok!!!!
 	    // https://attacomsian.com/blog/spring-data-jpa-one-to-many-mapping
 	    @OneToMany(mappedBy = "customer", 
 	    		fetch = FetchType.LAZY, 

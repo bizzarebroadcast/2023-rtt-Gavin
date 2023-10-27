@@ -1,5 +1,6 @@
 package org.perscholas.database.dao;
 
+import java.sql.Date;
 import java.util.List;
 
 import javax.persistence.NoResultException;
@@ -12,7 +13,7 @@ import org.hibernate.cfg.Configuration;
 import org.perscholas.database.entity.Order;
 
 public class OrderDAO {
-
+	
 	public Order findById(Integer id) {
 		SessionFactory factory = new Configuration().configure().buildSessionFactory();
 		Session session = factory.openSession();

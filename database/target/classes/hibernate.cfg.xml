@@ -13,8 +13,9 @@
 		<property name="hibernate.show_sql">true</property>
 		<property name="hibernate.format_sql">true</property>
 		
-		
+		<mapping class="org.perscholas.database.entity.Order" />
 		<mapping class="org.perscholas.database.entity.Customer" />
-
+		<mapping class="org.perscholas.database.entity.OrderDetail" />
+		<mapping class="org.perscholas.database.entity.Product" />
 	</session-factory>
 </hibernate-configuration>
